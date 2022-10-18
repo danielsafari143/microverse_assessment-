@@ -1,0 +1,176 @@
+*{
+    padding:0;
+    margin:0;
+    background-color: rgb(245, 245, 245);
+}
+header{
+    background-color: #fff;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+header div{
+    background-color: #fff;
+}
+header .title{
+    align-items: flex-start;
+    width: 20%;
+    margin-left: 5px;
+    height: inherit;
+}
+header .account{
+   
+    width: 20%;
+    margin-right: 5px;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+header .search{
+    align-items: flex-start;
+    width: 60%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    
+}
+.search div{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.search input {
+    width: 500px;
+    height: 40px;
+    background-color: #fff;
+    padding: 10px;
+    border:1px  solid rgb(230, 230, 230);
+}
+.search button{
+    height: 40px;
+    padding: 10px;
+    width: 60px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.search img{
+    width: 20px;
+}
+.search span{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.title img{
+    height:40px;
+    width:40px;
+    object-fit:cover;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.title h3{
+    margin: 10px 5px 10px 5px;
+    background-color: #fff;
+    font-family: Trade Gothic;
+}
+main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right:50px ;
+}
+.videoPlay{
+    width: 65%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .thumbnail{
+    margin-top:10px ;
+    width: 100%;
+    height: 120px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.thumbnail img{
+    margin-top:10px ;
+    width: 150px;
+    height: 100px;
+   
+}
+.thumbnail nav{
+    margin-top:10px ;
+    max-width: 50%;
+}
+.comments{
+    height: 20px;
+}
+.comments input{
+    padding: 15px;
+    border: none;
+    width: 620px;
+    border-bottom: 1px solid gray;
+}
+.comm{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.comm span{
+    background-color: firebrick;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    color: white;
+   
+}
+.comm h1{
+    background-color: firebrick;
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50px;
+   
+}
+
+.account h1{
+    background-color: firebrick;
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+    padding-left: 7px;
+    padding-right: 7px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 50px;
+   
+}
+

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link name="style" href="index.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+        <div class="title">
+            <img id="menu" src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png" >
+            <img src="https://t4.ftcdn.net/jpg/03/23/30/25/240_F_323302555_abGIkCDmI0XqnGqsVC6WzNRHc1wD1QhR.jpg">
+            <h3>YouTube</h3>
+        </div>
+        <div class="search">
+           <div>
+                <input type="search"/><button><img src="https://cdn-icons-png.flaticon.com/512/149/149852.png"></button>
+                <span><img src="https://cdn-icons-png.flaticon.com/512/709/709682.png"></span>
+            </div>   
+           </div>
+        
+        <div class="account">
+            <img width="30" height = "30" src="data:image/png;base64,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"/>
+                <img width="30" height = "30" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7SLWwBVQ9ntl5QeIBJkFkvIG8yxZqergXgueaoseu&s">
+                <h1>D</h1>
+        </div>
+   </header>
+   <main>
+        <section class="videoPlay">
+            <div>
+                <iframe width="780" height="420"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+            <div class="comments">
+                <div  class="comm">
+                    <span>
+                        <h1>D</h1>
+                    </span>
+                    <input type="text" placeholder="Ajouter un commentaire">
+                </div>
+                <div class="comm">
+                    <span>
+                        <h1>S</h1>
+                    </span>
+                   <div>
+                        <h5>Safari Hamuli</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Tenetur voluptatum quis necessitatibus, facere rem hic voluptate
+                        </p>
+                   </div>
+                </div>
+                <div class="comm">
+                    <span>
+                        <h1>K</h1>
+                    </span>
+                   <div>
+                        <h5>Ketia</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Tenetur voluptatum quis necessitatibus, facere rem hic voluptate
+                        </p>
+                   </div>
+                </div>
+                <div class="comm">
+                    <span>
+                        <h1>J</h1>
+                    </span>
+                   <div>
+                        <h5>Jemima Safaari</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Tenetur voluptatum quis necessitatibus, facere rem hic voluptate
+                        </p>
+                   </div>
+                </div>
+                <div class="comm">
+                    <span>
+                        <h1>Q</h1>
+                    </span>
+                   <div>
+                        <h5>Queen</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Tenetur voluptatum quis necessitatibus, facere rem hic voluptate
+                        </p>
+                   </div>
+                </div>
+                <div class="comm">
+                    <span>
+                        <h1>M</h1>
+                    </span>
+                   <div>
+                        <h5>Mugoli</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Tenetur voluptatum quis necessitatibus, facere rem hic voluptate
+                        </p>
+                   </div>
+                </div>
+                <div class="comm">
+                    <span>
+                        <h1>K</h1>
+                    </span>
+                   <div>
+                        <h5>Kamanda</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                   </div>
+                </div>
+                <div class="comm">
+                    <span>
+                        <h1>R</h1>
+                    </span>
+                   <div>
+                        <h5>Rodrigue</h5>
+                        <p>
+                            Tenetur voluptatum quis necessitatibus, facere rem hic voluptate
+                        </p>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <section class="sidebar">
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+            <div class="thumbnail">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest">
+                </a>
+                <nav>
+                    <h4>thumbnail image</h4>
+                    <p>Ada aniel safari aniel safari</p>
+                    <p>37 M de vues</p>
+                </nav>
+            </div>
+
+        </section>
+   </main>
+</body>
+</html>
